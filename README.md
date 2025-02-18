@@ -1,5 +1,6 @@
 ![Fine Logo](https://github.com/user-attachments/assets/d65eaa48-93fc-4941-a434-a74f9f707d93)
 Fine is a comprehensive financial management analysis system designed to help individuals and businesses optimize their financial performance with AI. The system features tools for budget tracking, expense categorization, investment analysis, and real-time financial forecasting. It offers intuitive dashboards, automated reporting, and AI-driven insights to identify cost-saving opportunities and improve financial decision-making. With built-in support for goal setting, cash flow monitoring, and risk assessment, the platform empowers users to take control of their finances effectively.
+
 **Tools being used for this project: Flask, TypeScript, PyTorch, React.js, Pandas/NumPy, SQLite, Plotly**
 
 
