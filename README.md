@@ -13,7 +13,8 @@ These are the Sign Up and Sign In pages for Fine. Where the user can create an a
 
 **Home Page for Fine**
 This is a very early build for the home page for Fine. I am currently working to adding more additions to it (such as line charts, bar charts and doughnut charts that analyze financial data). So far the sidebar has been created for it.
-![Fine Main Page](https://github.com/user-attachments/assets/99a947a7-1bcb-439b-b4c6-083ee2ce6649)
+
+![Fine Home Page 1](https://github.com/user-attachments/assets/3283028e-8407-408f-bb5c-21c15205d8ca)
 
 
 ----------------------------------------------------------------------------
