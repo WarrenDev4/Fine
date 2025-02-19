@@ -12,7 +12,7 @@ const Sidebar = () => {
       <a href="#dashboard"><FaChartPie /> Dashboard</a>
         <a href="#budget"><FaWallet /> Budget Tracking</a>
         <a href="#investments"><FaChartLine /> Investment Analysis</a>
-        <a href="#goals"><FaBullseye /> Goal Setting</a>
+        <a href="#goals"><FaBullseye /> Financial Forecasting</a>
         <a href="#reports"><FaFileInvoiceDollar /> Financial Reports</a>
         <a href="#analytics"><FaChartBar /> Analytics</a>
       </nav>
