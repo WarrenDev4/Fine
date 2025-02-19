@@ -3,13 +3,20 @@ Fine is a comprehensive financial management analysis system designed to help in
 
 **Tools being used for this project: Flask, TypeScript, PyTorch, React.js, Pandas/NumPy, SQLite, Plotly**
 
+**Sign Up and Sign In**
+
+These are the Sign Up and Sign In pages for Fine. Where the user can create an account and sign into the application.
+
+![Fine Sign Up](https://github.com/user-attachments/assets/ff207500-565f-4c8c-8cb4-8d85f6653ffd)
+
+![Fine Sign In](https://github.com/user-attachments/assets/247ac826-0430-4253-86b7-e7fe1cd60cfa)
 
 **Home Page for Fine**
+This is a very early build for the home page for Fine. I am currently working to adding more additions to it (such as line charts, bar charts and doughnut charts that analyze financial data). So far the sidebar has been created for it.
 
-This is a very early build for the home page for Fine. I am currently working to adding more additions to it (such as line charts, bar charts and doughnut charts that analyze financial data). More links to the sidebar will be added soon.
-![Fine Early Homepage](https://github.com/user-attachments/assets/0e111f59-b3da-424a-942f-3dd29ec2baf5)
+![Fine Home Page 1](https://github.com/user-attachments/assets/3283028e-8407-408f-bb5c-21c15205d8ca)
 
-**I am still working on the Sign Up and Sign In functionality with SQLite, More updates will be coming very soon!**
 
 ----------------------------------------------------------------------------
 **This project is currently Work in Progress.**
+**More updates will be coming very soon!**
