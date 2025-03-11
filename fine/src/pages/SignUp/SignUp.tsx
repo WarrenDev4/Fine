@@ -4,6 +4,7 @@ import "./SignUp.css";
 import logo from "../../images/Fine Logo White.png";
 import backgroundImage from "../../images/Fine Landing Page.png";
 
+{/* Sign Up Page (only contains sample logic. I will add database functionality with SQLite very soon!) */}
 const SignUpCard: FC = () => {
   const navigate = useNavigate(); 
 
@@ -30,13 +31,7 @@ const SignUpCard: FC = () => {
             <label htmlFor="password" className="form-label">Password</label>
             <input type="password" id="password" placeholder="Enter your password" className="form-input" />
           </div>
-          <button 
-            type="button" 
-            className="signup-button" 
-            onClick={() => navigate("/sign-in")} 
-          >
-            Create Account
-          </button>
+          <button type="button" className="signup-button" onClick={() => navigate("/sign-in")}>Create Account</button>
         </form>
       </div>
     </div>

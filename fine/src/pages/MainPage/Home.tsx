@@ -2,6 +2,7 @@ import React from "react";
 import { FaUser, FaCog, FaSignOutAlt, FaChartPie, FaWallet, FaChartLine, FaBullseye, FaFileInvoiceDollar, FaChartBar } from "react-icons/fa";
 import logo from "../../images/Fine Logo White.png";
 
+{/* Sidebar */}
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -31,6 +32,7 @@ const HomePage = () => {
       <Sidebar />
       <main className="main-content">
         <h1>Financial Dashboard</h1>
+        {/* Dashboard content will be added soon! */}
         <h2>More content to be added soon.</h2>
       </main>
     </div>

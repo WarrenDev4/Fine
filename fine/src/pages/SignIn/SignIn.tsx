@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./SignIn.css";
 import logo from "../../images/Fine Logo White.png"; 
 
+{/* Sign In Page (only contains sample logic. I will add database functionality with SQLite very soon!) */}
 const SignInCard: FC = () => {
   const navigate = useNavigate(); 
 
