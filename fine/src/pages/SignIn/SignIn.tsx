@@ -7,6 +7,7 @@ import logo from "../../images/Fine Logo White.png";
 const SignInCard: FC = () => {
   const navigate = useNavigate(); 
 
+  {/* Sample Handle sign in */}
   const handleSignIn = (event: React.FormEvent) => {
     event.preventDefault(); 
     navigate("/main-page");
