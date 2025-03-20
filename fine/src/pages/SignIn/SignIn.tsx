@@ -28,7 +28,7 @@ const SignInCard: FC = () => {
           </div>
           <button type="submit" className="signin-button">Sign In</button>
           <p className="sign-up-text">
-            Already have an account? <a href="/sign-up" onClick={(e) => { e.preventDefault(); navigate("/sign-up"); }}>Sign In</a>
+            Don't have an account? <a href="/sign-up" onClick={(e) => { e.preventDefault(); navigate("/sign-up"); }}>Sign Up</a>
           </p>
         </form>
       </div>

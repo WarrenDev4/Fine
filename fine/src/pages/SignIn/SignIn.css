@@ -137,3 +137,12 @@ body {
 .signup-link:hover {
   text-decoration: underline;
 }
+
+.sign-up-text a {
+  color: #7729c1;
+  text-decoration: none;
+}
+
+.sign-up-text a:hover {
+  text-decoration: underline;
+}
