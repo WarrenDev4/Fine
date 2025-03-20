@@ -9,7 +9,7 @@ Fine is a comprehensive financial management analysis system designed to help in
 **Sign Up and Sign In**
 ![Fine Sign Up Page](https://github.com/user-attachments/assets/0000f288-35ab-4dc8-b3d6-d7f9e5f03056)
 
-![Fine Sign In Page](https://github.com/user-attachments/assets/fd9e57e2-c52c-473a-9430-6bd6b989aa09)
+![Fine Sign In 2](https://github.com/user-attachments/assets/7455e552-983f-4876-b6c5-8ea8eb25006d)
 
 **Early Financial Dashboard Build for for Fine (With sample data shown)**
 ![Fine Dashboard](https://github.com/user-attachments/assets/ec29612e-922d-427a-a6e5-c86ed0ade859)
