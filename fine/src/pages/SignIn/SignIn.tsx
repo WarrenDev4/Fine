@@ -7,7 +7,7 @@ import logo from "../../images/Fine Logo White.png";
 const SignInCard: FC = () => {
   const navigate = useNavigate(); 
 
-  {/* Sample Handle sign in */}
+  {/* Sample Handle Sign in */}
   const handleSignIn = (event: React.FormEvent) => {
     event.preventDefault(); 
     navigate("/main-page");
@@ -16,7 +16,6 @@ const SignInCard: FC = () => {
   return (
     <div className="signin-container">
       <div className="signin-card">
-        <img src={logo} alt="Logo" className="logo" />
         <h2 className="signin-title">Sign In</h2>
         <form className="signin-form" onSubmit={handleSignIn}>
           <div className="form-group">
@@ -28,6 +27,9 @@ const SignInCard: FC = () => {
             <input type="password" id="password" placeholder="Enter your password" className="form-input" />
           </div>
           <button type="submit" className="signin-button">Sign In</button>
+          <p className="sign-up-text">
+            Already have an account? <a href="/sign-up" onClick={(e) => { e.preventDefault(); navigate("/sign-up"); }}>Sign In</a>
+          </p>
         </form>
       </div>
     </div>

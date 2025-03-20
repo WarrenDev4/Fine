@@ -9,8 +9,7 @@ const SignUpCard: FC = () => {
   const navigate = useNavigate(); 
 
   return (
-    <div className="logo-container">
-      <img src={logo} alt="Logo" className="logo" />
+    <div className="signup-container">
       <div className="signup-card">
         <img src={backgroundImage} alt="Background" className="background" />
         <h2 className="signup-title">Create Account</h2>
@@ -32,9 +31,12 @@ const SignUpCard: FC = () => {
             <input type="password" id="password" placeholder="Enter your password" className="form-input" />
           </div>
           <button type="button" className="signup-button" onClick={() => navigate("/sign-in")}>Create Account</button>
-        </form>
+          <p className="sign-in-text">
+            Already have an account? <a href="/sign-in" onClick={(e) => { e.preventDefault(); navigate("/sign-in"); }}>Sign In</a>
+          </p>
+        </form>  
+        </div> 
       </div>
-    </div>
   );
 };
 
