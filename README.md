@@ -14,7 +14,6 @@ Fine is a comprehensive financial management analysis system designed to help in
 **Early Financial Dashboard Build for for Fine (With sample data shown)**
 ![Fine Dashboard](https://github.com/user-attachments/assets/ec29612e-922d-427a-a6e5-c86ed0ade859)
 
-**Update: I have recently integrated Plotly (react-plotly.js) for the Financial Dashboard. I am now working on adding more content and features to the other pages and integrating SQLite database functionality for user authentication. I will be adding PyTorch fucntionality as well. More updates will be coming soon!**
+Update: I have recently integrated Plotly (react-plotly.js) for the Financial Dashboard. I am now working on adding more content and features to the other pages and integrating SQLite database functionality for user authentication. I will be adding PyTorch fucntionality as well. More updates will be coming soon!
 ----------------------------------------------------------------------------
 **This project is currently Work in Progress.**
-**More updates will be coming very soon!**
