@@ -1,7 +1,16 @@
 ![Fine Logo](https://github.com/user-attachments/assets/d65eaa48-93fc-4941-a434-a74f9f707d93)
 Fine is a comprehensive financial management analysis system designed to help individuals and businesses optimize their financial performance with AI. The system features tools for budget tracking, expense categorization, investment analysis, and real-time financial forecasting. It offers intuitive dashboards, automated reporting, and AI-driven insights to identify cost-saving opportunities and improve financial decision-making. With built-in support for goal setting, cash flow monitoring, and risk assessment, the platform empowers users to take control of their finances effectively.
 
-**Tools being used for this project: Flask, TypeScript, PyTorch, React.js, Pandas/NumPy, SQLite, Plotly**
+**Tools to be used for this project:**
+<table>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="50">Flask</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="50">React.js</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="50">TypeScript</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width="50">PyTorch</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg" width="50">Plotly</td>
+  </tr>
+</table>
 
 **Landing Page for Fine**
 ![Fine Landing Page 1](https://github.com/user-attachments/assets/36d7cdce-e354-4113-b03a-6df69e9411a4)
