@@ -27,6 +27,4 @@ Effecient and effective financial management is important for both individuals a
 **Early Financial Dashboard Build for for Fine (With sample data shown)**
 ![Fine Dashboard](https://github.com/user-attachments/assets/ec29612e-922d-427a-a6e5-c86ed0ade859)
 
-Update: I have recently integrated Plotly (react-plotly.js) for the Financial Dashboard. I am now working on adding more content and features to the other pages and integrating SQLite database functionality for user authentication. I will be adding PyTorch fucntionality as well. More updates will be coming soon!
-----------------------------------------------------------------------------
-**This project is currently Work in Progress.**
+**Update: I have decided to take a much needed break from development of Fine for now. I will return to the development of the application and provide more updates to it when i come back. Don't worry when development resumes many new features and additions will be added towards significant progress of the application! 🚀**
