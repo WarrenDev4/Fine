@@ -3,18 +3,13 @@ Fine is a comprehensive financial management analysis system designed to help in
 
 Effecient and effective financial management is important for both individuals and businesses, yet many struggle due to the complexity of financial data and the lack of effective and intelligent analytical tools. Some financial management solutions often fail to provide real-time insights leading to inefficiencies and missed financial growth. Fine addresses these challenges by offering an AI-powered financial management analysis system that enables users to optimize their finances in real time. By leveraging AI-driven insights, Fine empowers users to make informed financial decisions to achieve long-term financial stability.
 
-**Tools to be used for this project:**
-<table>
-  <tr>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="50">Python</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="50">Flask</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="50">React.js</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="50">TypeScript</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width="50">PyTorch</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" width="50">SQLite</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg" width="50">Plotly</td>
-  </tr>
-</table>
+**Tools being used for this project:**
+
+- `Flask`- Creating the backend and web server for the application.
+- `TensorFlow` - Integrating AI for analyzing financial data to provide insights into making better decisions.
+- `React` - For clean and sleek graphical UI for the frontend of the application.
+- `SQLite` - Database handling for user authentication.
+- `Chart.js` - Generating charts for displaying financial data in real time.
 
 **Landing Page for Fine**
 ![Fine Landing Page 1](https://github.com/user-attachments/assets/36d7cdce-e354-4113-b03a-6df69e9411a4)
