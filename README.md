@@ -19,7 +19,7 @@ Effecient and effective financial management is important for both individuals a
 
 ![Fine Sign In 2](https://github.com/user-attachments/assets/7455e552-983f-4876-b6c5-8ea8eb25006d)
 
-**Early Financial Dashboard Build for for Fine (With sample data shown)**
-![Fine Dashboard](https://github.com/user-attachments/assets/ec29612e-922d-427a-a6e5-c86ed0ade859)
+**Financial Dashboard Build for for Fine (Only demo data shown. No real data has been generated yet).**
+![Fine Dashboard Page](https://github.com/user-attachments/assets/c8cd0b89-ade4-412a-a09d-d3496a951f85)
 
 **Update: I have decided to take a much needed break from development of Fine for now. I will return to the development of the application and provide more updates to it when i come back. Don't worry when development resumes many new features and additions will be added towards significant progress of the application! 🚀**
