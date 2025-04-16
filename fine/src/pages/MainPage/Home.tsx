@@ -1,148 +1,145 @@
-import React from "react";
-import { FaUser, FaCog, FaSignOutAlt, FaChartPie, FaWallet, FaChartLine, FaBullseye, FaFileInvoiceDollar, FaChartBar } from "react-icons/fa";
+import {
+  Pie, Bar, Line,
+} from "react-chartjs-2";
+import {
+  Chart as ChartJS,
+  ArcElement,
+  Tooltip,
+  Legend,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  PointElement,
+  LineElement,
+  Title,
+} from "chart.js";
 import logo from "../../images/Fine Logo White.png";
-import Plot from "react-plotly.js"; 
 
-
-const Sidebar = () => {
-  return (
-    <div className="sidebar">
-      <div className="sidebar-logo">
-        <img src={logo} alt="Fine Logo" />
-      </div>
-      <nav className="sidebar-links">
-        <a href="#dashboard"><FaChartPie /> Dashboard</a>
-        <a href="#budget"><FaWallet /> Budget Tracking</a>
-        <a href="#investments"><FaChartLine /> Investment Analysis</a>
-        <a href="#goals"><FaBullseye /> Financial Forecasting</a>
-        <a href="#reports"><FaFileInvoiceDollar /> Financial Reports</a>
-        <a href="#analytics"><FaChartBar /> Analytics</a>
-      </nav>
-      <div className="sidebar-bottom">
-        <a href="#profile"><FaUser /> Profile</a>
-        <a href="#settings"><FaCog /> Settings</a>
-        <a href="#logout"><FaSignOutAlt /> Log Out</a>
-      </div>
-    </div>
-  );
-};
+// Register chart elements
+ChartJS.register(
+  ArcElement,
+  Tooltip,
+  Legend,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  PointElement,
+  LineElement,
+  Title
+);
 
 const HomePage = () => {
   return (
     <div className="home-container">
-      <Sidebar />
       <main className="main-content">
         <h1>Financial Dashboard</h1>
 
-        
         <div className="charts-horizontal">
-          {/* Expense Categorization Chart */}
+          {/* Expense Categorization */}
           <div className="chart-container">
             <h2>Expense Categorization</h2>
-            <Plot
-              data={[
-                {
-                  values: [30, 20, 15, 35], 
-                  labels: ["Housing", "Food", "Transport", "Entertainment"],
-                  type: "pie",
-                  hoverinfo: "label+percent",
-                  textinfo: "value",
-                },
-              ]}
-              layout={{ width: 300, height: 250, title: "Expense Breakdown" }}
+            <Pie
+              data={{
+                labels: ["Housing", "Food", "Transport", "Entertainment"],
+                datasets: [{
+                  data: [30, 20, 15, 35],
+                  backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56", "#AA65DA"],
+                }],
+              }}
+              options={{ responsive: true, plugins: { title: { display: true, text: "Expense Breakdown" }}}}
             />
           </div>
 
-          {/* Monthly Budget Tracking Chart */}
+          {/* Monthly Budget Tracking */}
           <div className="chart-container">
             <h2>Monthly Budget Tracking</h2>
-            <Plot
-              data={[
-                {
-                  x: ["Jan", "Feb", "Mar", "Apr", "May"],
-                  y: [1000, 1500, 1200, 1800, 2000],
-                  type: "bar",
-                  marker: { color: "#6a0dad" },
-                },
-              ]}
-              layout={{ width: 300, height: 250, title: "Budget vs Actual Spending" }}
+            <Bar
+              data={{
+                labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+                datasets: [{
+                  label: "Spending",
+                  data: [1000, 1500, 1200, 1800, 2000],
+                  backgroundColor: "#6a0dad",
+                }],
+              }}
+              options={{ responsive: true, plugins: { title: { display: true, text: "Budget vs Actual Spending" }}}}
             />
           </div>
 
-          {/* Investment Growth Analysis Chart */}
+          {/* Investment Growth */}
           <div className="chart-container">
             <h2>Investment Growth Analysis</h2>
-            <Plot
-              data={[
-                {
-                  x: [1, 2, 3, 4, 5], 
-                  y: [100, 200, 300, 400, 500], 
-                  type: "scatter",
-                  mode: "lines+markers",
-                  marker: { color: "#551a8b" }, 
-                },
-              ]}
-              layout={{ width: 300, height: 250, title: "Portfolio Growth Over Time" }}
+            <Line
+              data={{
+                labels: [1, 2, 3, 4, 5],
+                datasets: [{
+                  label: "Investment",
+                  data: [100, 200, 300, 400, 500],
+                  fill: false,
+                  borderColor: "#551a8b",
+                  tension: 0.3,
+                }],
+              }}
+              options={{ responsive: true, plugins: { title: { display: true, text: "Portfolio Growth Over Time" }}}}
             />
           </div>
         </div>
 
         <div className="charts-horizontal">
-          {/* Cash Flow Monitoring Chart */}
+          {/* Cash Flow Monitoring */}
           <div className="chart-container">
             <h2>Cash Flow Monitoring</h2>
-            <Plot
-              data={[
-                {
-                  x: ["Jan", "Feb", "Mar", "Apr", "May"], 
-                  y: [500, 700, 600, 900, 800], 
-                  type: "bar",
-                  name: "Income",
-                  marker: { color: "#4CAF50" }, 
-                },
-                {
-                  x: ["Jan", "Feb", "Mar", "Apr", "May"], 
-                  y: [400, 500, 450, 600, 550], 
-                  type: "bar",
-                  name: "Expenses",
-                  marker: { color: "#F44336" }, 
-                },
-              ]}
-              layout={{ width: 300, height: 250, title: "Monthly Cash Flow", barmode: "group" }}
+            <Bar
+              data={{
+                labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+                datasets: [
+                  {
+                    label: "Income",
+                    data: [500, 700, 600, 900, 800],
+                    backgroundColor: "#245ac7",
+                  },
+                  {
+                    label: "Expenses",
+                    data: [400, 500, 450, 600, 550],
+                    backgroundColor: "#e00d2a",
+                  },
+                ],
+              }}
+              options={{
+                responsive: true,
+                plugins: { title: { display: true, text: "Monthly Cash Flow" } },
+              }}
             />
           </div>
 
-          {/* Goal Progress Tracking Chart */}
+          {/* Goal Progress Tracking */}
           <div className="chart-container">
             <h2>Goal Progress Tracking</h2>
-            <Plot
-              data={[
-                {
-                  values: [75, 25], 
-                  labels: ["Completed", "Remaining"],
-                  type: "pie",
-                  hoverinfo: "label+percent",
-                  textinfo: "value",
-                  marker: { colors: ["#6a0dad", "#e0e0e0"] }, 
-                },
-              ]}
-              layout={{ width: 300, height: 250, title: "Savings Goal Progress" }}
+            <Pie
+              data={{
+                labels: ["Completed", "Remaining"],
+                datasets: [{
+                  data: [75, 25],
+                  backgroundColor: ["#6a0dad", "#e0e0e0"],
+                }],
+              }}
+              options={{ responsive: true, plugins: { title: { display: true, text: "Savings Goal Progress" }}}}
             />
           </div>
 
-          {/* Risk Assessment Chart */}
+          {/* Risk Assessment */}
           <div className="chart-container">
             <h2>Risk Assessment</h2>
-            <Plot
-              data={[
-                {
-                  x: ["Low", "Medium", "High"], 
-                  y: [20, 50, 30],
-                  type: "bar",
-                  marker: { color: "#FFA500" }, 
-                },
-              ]}
-              layout={{ width: 300, height: 250, title: "Portfolio Risk Levels" }}
+            <Bar
+              data={{
+                labels: ["Low", "Medium", "High"],
+                datasets: [{
+                  label: "Risk Level",
+                  data: [20, 50, 30],
+                  backgroundColor: "#FFA500",
+                }],
+              }}
+              options={{ responsive: true, plugins: { title: { display: true, text: "Portfolio Risk Levels" }}}}
             />
           </div>
         </div>
