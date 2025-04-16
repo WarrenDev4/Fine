@@ -40,6 +40,6 @@ While I aim for the highest possible accuracy in data processing and analysis, t
 ![Fine Sign In 2](https://github.com/user-attachments/assets/7455e552-983f-4876-b6c5-8ea8eb25006d)
 
 **Financial Dashboard Build for for Fine (Only demo data shown. No real data has been generated yet).**
-![Fine Dashboard Page](https://github.com/user-attachments/assets/c8cd0b89-ade4-412a-a09d-d3496a951f85)
+![Fine Dash](https://github.com/user-attachments/assets/321d06f4-1ca2-45a5-978c-9806978af1ae)
 
 **Update: I have decided to take a much needed break from development of Fine for now. I will return to the development of the application and provide more updates to it when i come back. Don't worry when development resumes many new features and additions will be added towards significant progress of the application! 🚀**
