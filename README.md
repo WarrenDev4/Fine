@@ -3,6 +3,26 @@ Fine is a comprehensive financial management analysis system designed to help in
 
 Effecient and effective financial management is important for both individuals and businesses, yet many struggle due to the complexity of financial data and the lack of effective and intelligent analytical tools. Some financial management solutions often fail to provide real-time insights leading to inefficiencies and missed financial growth. Fine addresses these challenges by offering an AI-powered financial management analysis system that enables users to optimize their finances in real time. By leveraging AI-driven insights, Fine empowers users to make informed financial decisions to achieve long-term financial stability.
 
+
+### **⚠️ DISCLAIMER (PLEASE READ THIS THOROUGHLY BEFORE READING ANY FURTHER)**  
+---
+**Fine** is a software development project intended for **research, educational, and demonstration purposes only**.
+It is not designed or licensed for actual financial advising, investment planning, or professional financial decision-making.
+
+I am a **software developer** with an interest in building AI-powered tools to explore financial data analysis and forecasting.
+
+I am **not** a licensed financial advisor or professional, and this project is for **development and experimentation only**.
+
+The data and insights provided are based on publicly **available or test datasets** and should **not** be relied upon for real-world financial decisions.
+
+The goal of this project is to demonstrate the capabilities of artificial intelligence in analyzing financial data, generating insights, and supporting financial awareness.
+
+While I aim for the highest possible accuracy in data processing and analysis, the results are **not guaranteed** to be accurate or suitable for real-world financial use.
+
+**Please take this as a piece of software — not a commercial or professional financial service platform.**
+
+---
+
 **Tools being used for this project:**
 
 - `Flask`- Creating the backend and web server for the application.
