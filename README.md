@@ -25,11 +25,11 @@ While I aim for the highest possible accuracy in data processing and analysis, t
 
 **Tools being used for this project:**
 
-- `Flask`- Creating the backend and web server for the application.
-- `TensorFlow` - Integrating AI for analyzing financial data to provide insights into making better decisions.
-- `React` - For clean and sleek graphical UI for the frontend of the application.
-- `SQLite` - Database handling for user authentication.
-- `Chart.js` - Generating charts for displaying financial data in real time.
+- `Flask`- Creating the backend and web server for the application, managing RESTful APIs, routing, and business logic for handling financial data and AI-powered analytics.
+- `TensorFlow` - Integrating AI to analyze financial data and provide real-time insights into budgeting, expense patterns, investment opportunities, and financial risk assessment using predictive models.
+- `React` - Building a sleek and responsive frontend interface for dashboards, reports, goal-setting tools, and financial planning features.
+- `SQLite` -  Lightweight relational database used for user authentication, budget records, transaction history, and storing AI analysis results in a portable and efficient manner.
+- `Chart.js` - Visualizing financial data trends through interactive and real-time charts for budgeting, spending categories, investment performance, and cash flow analysis.
 
 **Landing Page for Fine**
 ![Fine Landing Page 1](https://github.com/user-attachments/assets/36d7cdce-e354-4113-b03a-6df69e9411a4)
